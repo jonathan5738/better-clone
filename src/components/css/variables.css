@@ -1,0 +1,8 @@
+:root {
+    --main-green-color: #017848;
+    --dark-green-color: #004733;
+    --font-serif: 'Open Sans', sans-serif;
+    --desk-pad: 0 80px;
+    --desk-pad-sm: 0 40px; 
+    --mobile-pad: 0 20px;
+}

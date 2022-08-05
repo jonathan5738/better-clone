@@ -1,0 +1,20 @@
+.section3 {
+    background-color: #FBF6E9;
+    padding-bottom: 4em;
+}
+.section3 img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 4em;
+}
+.mt {
+    padding-top: 50px;
+}
+.section3 a {
+    margin-top: 2em;
+}
+@media screen and (max-width: 852px) {
+    .section3 {
+        padding-bottom: 4em;
+    }
+}

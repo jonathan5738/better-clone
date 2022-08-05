@@ -1,0 +1,84 @@
+.header {
+    background-color: var(--main-green-color);
+    padding-bottom: 3rem;
+}
+.header-content {
+    padding: var(--desk-pad);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    /* position: absolute;
+    top: 55%;
+    transform: translateY(-50%); */
+}
+.header-text {
+    width: 60%;
+}
+.header-text h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+.buy {
+    display: block;
+    font-size: 2rem;
+    padding: 49px 30px;
+    background-color: var(--dark-green-color);
+    border-radius: 10px;
+}
+.header-link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.refinance {
+    display: block;
+    font-size: 2rem;
+    padding: 49px 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.buy a {
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    color: var(--main-green-color);
+}
+
+.refinance a {
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.header-text p {
+    color: #f1f1f1;
+}
+
+@media screen and (max-width: 906px){
+    .header-text h1 {
+        font-size: 3rem;
+        color: #fff;
+    }
+}
+@media (max-width: 780px) {
+    .header-content {
+        padding: var(--mobile-pad);
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .buy, .refinance {
+        display: block;
+        font-size: 1.5rem;
+        padding: 39px 20px;
+    }
+    .buy a {
+        font-size: 25px;
+    }
+    .refinance a {
+        font-size: 25px;
+    }
+    .header-text {
+        width: 100%;
+    }
+}
